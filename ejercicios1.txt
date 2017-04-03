@@ -1,0 +1,260 @@
+  658  2017-04-03 17:34  find -mmin -5s
+  659  2017-04-03 17:34  find -mmin -1
+  660  2017-04-03 17:34  find ./Data -size +1
+  661  2017-04-03 17:34  find -maxdepth 5 -type f -name "text_file*" -exec ls -l {} \\nk
+  662  2017-04-03 17:34  find -maxdepth 5 -type d -name first_dir/  -exec ls -l {} \\nk
+  663  2017-04-03 17:34  find -maxdepth 5 -type d -name "first_dir" -exec ls -l {} \\nk
+  664  2017-04-03 17:34  find -maxdepth 5 -type d -name "first_dir" -exec ls -l {} 
+  665  2017-04-03 17:34  find -maxdepth 5 -type d -name "first_dir" -exec ls -l {}\ 
+  666  2017-04-03 17:34  find -maxdepth 5 -d -name "first_dir" -exec ls -l {}\ 
+  667  2017-04-03 17:34  find -empty -perm! 777
+  668  2017-04-03 17:34  find -empty -perm ! 777
+  669  2017-04-03 17:34  find -empty erm  777
+  670  2017-04-03 17:34  find -empty! -perm  777
+  671  2017-04-03 17:34  find -empty ! -perm  777
+  672  2017-04-03 17:34  find -empty ! -perm  777 -ok chmod 777 {}\;
+  673  2017-04-03 17:34  find -empty ! -perm  777 -ok cmd chmod 777 {}\;
+  674  2017-04-03 17:34  find -empty ! -perm  777 -ok cmd chmod 777 {} \;
+  675  2017-04-03 17:34  find -empty ! -perm  777 -ok cmd chmod 777 {};
+  676  2017-04-03 17:34  find -type f -mindepth 5 -mmin 60
+  677  2017-04-03 17:34  find -tuype f -size 0 -mmin 60
+  678  2017-04-03 17:34  find -tçype f -size 0 -mmin 60
+  679  2017-04-03 17:34  find -type f -size 0 -mmin 60
+  680  2017-04-03 17:34  find -type f -size 10 -mmin 60
+  681  2017-04-03 17:34  find -iname "fb_amigos"
+  682  2017-04-03 17:34  find . -iname "fb_amigos"
+  683  2017-04-03 17:34  ls
+  684  2017-04-03 17:34  find . -name "Master_class_02.pdf"
+  685  2017-04-03 17:34  cd desktop
+  686  2017-04-03 17:34  cd desktop/
+  687  2017-04-03 17:34  cd Desktop/
+  688  2017-04-03 17:34  ls
+  689  2017-04-03 17:34  ls Apuntes
+  690  2017-04-03 17:34  echo "hola"
+  691  2017-04-03 17:34  echo `ls`
+  692  2017-04-03 17:34  cd ..
+  693  2017-04-03 17:34  echo 'ls'
+  694  2017-04-03 17:34  echo $0
+  695  2017-04-03 17:34  echo `ls -l`
+  696  2017-04-03 17:34  seq 1 2 10>uniq_example.tx
+  697  2017-04-03 17:34  seq 1 10>uniq_example.tx
+  698  2017-04-03 17:34  uniq uniq_example.tx
+  699  2017-04-03 17:34  cat uniq_example.tx | uniq
+  700  2017-04-03 17:34  cat uniq_example.tx | uniq -d
+  701  2017-04-03 17:34  cat uniq_example.tx | uniq -u
+  702  2017-04-03 17:34  cat uniq_example.tx | uniq -c
+  703  2017-04-03 17:34  echo "hola mundo"/
+  704  2017-04-03 17:34  echo "hola mundo"\\n"lalala"
+  705  2017-04-03 17:34  echo "hola mundo"\\n"lalala"\\nwc
+  706  2017-04-03 17:34  echo "hola mundo"\\n"lalala" | wc
+  707  2017-04-03 17:34  seq 1 3 200 >./Desktop/Ejer/prueba.txt
+  708  2017-04-03 17:34  seq 1 3 200 | tail 3 >uniq_example.tx
+  709  2017-04-03 17:34  seq 1 3 200 | tail -3 >uniq_example.tx
+  710  2017-04-03 17:34  cat uniq_example.tx
+  711  2017-04-03 17:34  whoami
+  712  2017-04-03 17:34  sort uniq_example.tx
+  713  2017-04-03 17:34  sec 1 2 200>uniq_example.tx
+  714  2017-04-03 17:34  seq 1 2 200>uniq_example.tx
+  715  2017-04-03 17:34  sort uniq_example.tx
+  716  2017-04-03 17:34  sort uniq_example.tx| uniq
+  717  2017-04-03 17:34  sort -n uniq_example.tx
+  718  2017-04-03 17:34  sort -n -r uniq_example.tx
+  719  2017-04-03 17:34  pwd
+  720  2017-04-03 17:34  ls
+  721  2017-04-03 17:34  cd data
+  722  2017-04-03 17:34  cd Data
+  723  2017-04-03 17:34  sort -t "^" -k 6r6 optd_aircraft.csv | head
+  724  2017-04-03 17:34  sort -t "^" -k 6r,6 optd_aircraft.csv | head
+  725  2017-04-03 17:34  ls
+  726  2017-04-03 17:34  cd opentraveldata
+  727  2017-04-03 17:34  ls
+  728  2017-04-03 17:34  head
+  729  2017-04-03 17:34  cat optd_aircraft.csv | head
+  730  2017-04-03 17:34  sort -t "," -k1-4 optd_aircraft.csv
+  731  2017-04-03 17:34  sort -t "," -k1,4 optd_aircraft.csv
+  732  2017-04-03 17:34   sort -t "d" optd_aircraft.csv| head
+  733  2017-04-03 17:34   sort -t "^" optd_aircraft.csv| head
+  734  2017-04-03 17:34  sort -d optd_aircraft.csv
+  735  2017-04-03 17:34  sort -d -k2  optd_aircraft.csv
+  736  2017-04-03 17:34  sort -d -k2,2  optd_aircraft.csv
+  737  2017-04-03 17:34  sort -t "^" -k2,2  optd_aircraft.csv
+  738  2017-04-03 17:34  sort -t "^" -d  optd_aircraft.csv
+  739  2017-04-03 17:34  sort -t "^" -k1,1  optd_aircraft.csv
+  740  2017-04-03 17:34  sort -t "^" -k1,1 -u  optd_aircraft.csv| wc
+  741  2017-04-03 17:34  sort -t "^" -k1r,1   optd_aircraft.csv
+  742  2017-04-03 17:46  cd 
+  743  2017-04-03 17:51  find maxdepth -5 -size +10 | head -exec ls -s {} \;
+  744  2017-04-03 17:51  find -maxdepth 5 -size +10 | head -exec ls -s {} \;
+  745  2017-04-03 17:51  find -maxdepth 5 -size +10 | head|  -exec ls -s {} \;
+  746  2017-04-03 17:52  find -maxdepth 5 -size +10  -exec ls -s {} \;
+  747  2017-04-03 17:53  find -maxdepth 5 -size +10| head -10| -exec ls -s {} \;
+  748  2017-04-03 17:54  find -maxdepth 5 -size +10| head -10
+  749  2017-04-03 17:55  find -maxdepth 5 -size -10| head -10
+  750  2017-04-03 18:00  find -maxdepth 5 -size | head -10
+  751  2017-04-03 18:01  find -maxdepth 5 ! -size0 | head -10
+  752  2017-04-03 18:01  find -maxdepth 5 ! -size 0 | head -10
+  753  2017-04-03 18:01  find ! -size 0 | head -10
+  754  2017-04-03 18:02  find ! -size 0 | head -10 -exec ls -l {} \\n
+  755  2017-04-03 18:02  find ! -size 0 | head -10 -exec ls -l {} \;\n
+  756  2017-04-03 18:03  find ! -size 0 | head -10 | -exec ls -l {} \;\n
+  757  2017-04-03 18:04  find -type f ! -size 0 | head -10 | -exec ls -l {} \;\n
+  758  2017-04-03 18:04  find -type f ! -size 0 | head -10 \n
+  759  2017-04-03 18:05  find -type f ! -size 0 | head -10> top10.txt \n
+  760  2017-04-03 18:07  cat top10.txt ls
+  761  2017-04-03 18:07  ls top10.txt ls
+  762  2017-04-03 18:08  cat top10.txt ls -s
+  763  2017-04-03 18:08  cat top10.txt ls -l
+  764  2017-04-03 18:09  cat top10.txt ls -s
+  765  2017-04-03 18:12  du top10.txt ls -s
+  766  2017-04-03 18:17  seq 15>lines.txt
+  767  2017-04-03 18:17  seq 9 1 20 >>lines.txt
+  768  2017-04-03 18:18  echo `20\n20`>>20lines.txt
+  769  2017-04-03 18:18  echo "20\n20">>20lines.txt
+  770  2017-04-03 18:18  cat 20lines.txt
+  771  2017-04-03 18:27  seq 15>20lines.txt
+  772  2017-04-03 18:27  ls 20lines.txt
+  773  2017-04-03 18:28  cat 20lines.txt
+  774  2017-04-03 18:28  seq 9 1 20>>20lines.txt
+  775  2017-04-03 18:28  cat 20lines.txt
+  776  2017-04-03 18:35  sort -n 20lines.txt
+  777  2017-04-03 18:35  sort -n 20lines.txt| uniq
+  778  2017-04-03 18:37  sort -d 20lines.txt
+  779  2017-04-03 18:38  sort -d 20lines.txt| uniq
+  780  2017-04-03 18:45  echo "20\20n">>20lines.txt
+  781  2017-04-03 18:45  cat 20lines.txt
+  782  2017-04-03 18:45  echo "20\n20">>20lines.txt
+  783  2017-04-03 18:45  cat 20lines.txt
+  784  2017-04-03 18:46  sort 20lines.txt| uniq -d
+  785  2017-04-03 18:49  sort -c 20lines.txt
+  786  2017-04-03 18:49  sort -c 20lines.txt| uniq -c
+  787  2017-04-03 18:51  seq 0 2 40>20lines2.txt
+  788  2017-04-03 18:54  sort 20lines.txt| uniq | sort 20lines2.txt| uniq>>20lines no_dupl.txt
+  789  2017-04-03 18:55  sort 20lines.txt| uniq | sort 20lines2.txt| uniq>>20lines_nodupl.txt
+  790  2017-04-03 18:55  cat 20lines_nodupl.txt
+  791  2017-04-03 18:57  sort 20lines.txt| uniq -d | sort 20lines2.txt| uniq -d>>20lines_nodupl.txt
+  792  2017-04-03 18:57  cat 20lines_nodupl.txt
+  793  2017-04-03 18:58  cd Data
+  794  2017-04-03 18:58  cd opentraveldata
+  795  2017-04-03 18:59  l
+  796  2017-04-03 18:59  ls
+  797  2017-04-03 18:59  cd optd_aircraft.csv
+  798  2017-04-03 19:00  cat optd_aircraft.csv
+  799  2017-04-03 19:02  sort -t -k7,7 optd_aircraft.csv
+  800  2017-04-03 19:02  sort -t "^" -k7,7 optd_aircraft.csv
+  801  2017-04-03 19:03  sort -t "^" -k7,7 optd_aircraft.csv| head -10
+  802  2017-04-03 19:03  sort -t "^" -k7,7 optd_aircraft.csv| tail -10
+  803  2017-04-03 19:03  sort -t "^" -k7,7 optd_aircraft.csv| tail 10
+  804  2017-04-03 19:04  sort -t "^" -k7,7 optd_aircraft.csv| tail -15
+  805  2017-04-03 19:04  sort -t "^" -k7r,7 optd_aircraft.csv| head
+  806  2017-04-03 19:15  cat -n ./history>ejer_comandos1.txt
+  807  2017-04-03 19:15  cat -n /history>ejer_comandos1.txt
+  701  2017-04-03 17:34  cat uniq_example.tx | uniq -u
+  702  2017-04-03 17:34  cat uniq_example.tx | uniq -c
+  703  2017-04-03 17:34  echo "hola mundo"/
+  704  2017-04-03 17:34  echo "hola mundo"\\n"lalala"
+  705  2017-04-03 17:34  echo "hola mundo"\\n"lalala"\\nwc
+  706  2017-04-03 17:34  echo "hola mundo"\\n"lalala" | wc
+  707  2017-04-03 17:34  seq 1 3 200 >./Desktop/Ejer/prueba.txt
+  708  2017-04-03 17:34  seq 1 3 200 | tail 3 >uniq_example.tx
+  709  2017-04-03 17:34  seq 1 3 200 | tail -3 >uniq_example.tx
+  710  2017-04-03 17:34  cat uniq_example.tx
+  711  2017-04-03 17:34  whoami
+  712  2017-04-03 17:34  sort uniq_example.tx
+  713  2017-04-03 17:34  sec 1 2 200>uniq_example.tx
+  714  2017-04-03 17:34  seq 1 2 200>uniq_example.tx
+  715  2017-04-03 17:34  sort uniq_example.tx
+  716  2017-04-03 17:34  sort uniq_example.tx| uniq
+  717  2017-04-03 17:34  sort -n uniq_example.tx
+  718  2017-04-03 17:34  sort -n -r uniq_example.tx
+  719  2017-04-03 17:34  pwd
+  720  2017-04-03 17:34  ls
+  721  2017-04-03 17:34  cd data
+  722  2017-04-03 17:34  cd Data
+  723  2017-04-03 17:34  sort -t "^" -k 6r6 optd_aircraft.csv | head
+  724  2017-04-03 17:34  sort -t "^" -k 6r,6 optd_aircraft.csv | head
+  725  2017-04-03 17:34  ls
+  726  2017-04-03 17:34  cd opentraveldata
+  727  2017-04-03 17:34  ls
+  728  2017-04-03 17:34  head
+  729  2017-04-03 17:34  cat optd_aircraft.csv | head
+  730  2017-04-03 17:34  sort -t "," -k1-4 optd_aircraft.csv
+  731  2017-04-03 17:34  sort -t "," -k1,4 optd_aircraft.csv
+  732  2017-04-03 17:34   sort -t "d" optd_aircraft.csv| head
+  733  2017-04-03 17:34   sort -t "^" optd_aircraft.csv| head
+  734  2017-04-03 17:34  sort -d optd_aircraft.csv
+  735  2017-04-03 17:34  sort -d -k2  optd_aircraft.csv
+  736  2017-04-03 17:34  sort -d -k2,2  optd_aircraft.csv
+  737  2017-04-03 17:34  sort -t "^" -k2,2  optd_aircraft.csv
+  738  2017-04-03 17:34  sort -t "^" -d  optd_aircraft.csv
+  739  2017-04-03 17:34  sort -t "^" -k1,1  optd_aircraft.csv
+  740  2017-04-03 17:34  sort -t "^" -k1,1 -u  optd_aircraft.csv| wc
+  741  2017-04-03 17:34  sort -t "^" -k1r,1   optd_aircraft.csv
+  742  2017-04-03 17:46  cd 
+  743  2017-04-03 17:51  find maxdepth -5 -size +10 | head -exec ls -s {} \;
+  744  2017-04-03 17:51  find -maxdepth 5 -size +10 | head -exec ls -s {} \;
+  745  2017-04-03 17:51  find -maxdepth 5 -size +10 | head|  -exec ls -s {} \;
+  746  2017-04-03 17:52  find -maxdepth 5 -size +10  -exec ls -s {} \;
+  747  2017-04-03 17:53  find -maxdepth 5 -size +10| head -10| -exec ls -s {} \;
+  748  2017-04-03 17:54  find -maxdepth 5 -size +10| head -10
+  749  2017-04-03 17:55  find -maxdepth 5 -size -10| head -10
+  750  2017-04-03 18:00  find -maxdepth 5 -size | head -10
+  751  2017-04-03 18:01  find -maxdepth 5 ! -size0 | head -10
+  752  2017-04-03 18:01  find -maxdepth 5 ! -size 0 | head -10
+  753  2017-04-03 18:01  find ! -size 0 | head -10
+  754  2017-04-03 18:02  find ! -size 0 | head -10 -exec ls -l {} \\n
+  755  2017-04-03 18:02  find ! -size 0 | head -10 -exec ls -l {} \;\n
+  756  2017-04-03 18:03  find ! -size 0 | head -10 | -exec ls -l {} \;\n
+  757  2017-04-03 18:04  find -type f ! -size 0 | head -10 | -exec ls -l {} \;\n
+  758  2017-04-03 18:04  find -type f ! -size 0 | head -10 \n
+  759  2017-04-03 18:05  find -type f ! -size 0 | head -10> top10.txt \n
+  760  2017-04-03 18:07  cat top10.txt ls
+  761  2017-04-03 18:07  ls top10.txt ls
+  762  2017-04-03 18:08  cat top10.txt ls -s
+  763  2017-04-03 18:08  cat top10.txt ls -l
+  764  2017-04-03 18:09  cat top10.txt ls -s
+  765  2017-04-03 18:12  du top10.txt ls -s
+  766  2017-04-03 18:17  seq 15>lines.txt
+  767  2017-04-03 18:17  seq 9 1 20 >>lines.txt
+  768  2017-04-03 18:18  echo `20\n20`>>20lines.txt
+  769  2017-04-03 18:18  echo "20\n20">>20lines.txt
+  770  2017-04-03 18:18  cat 20lines.txt
+  771  2017-04-03 18:27  seq 15>20lines.txt
+  772  2017-04-03 18:27  ls 20lines.txt
+  773  2017-04-03 18:28  cat 20lines.txt
+  774  2017-04-03 18:28  seq 9 1 20>>20lines.txt
+  775  2017-04-03 18:28  cat 20lines.txt
+  776  2017-04-03 18:35  sort -n 20lines.txt
+  777  2017-04-03 18:35  sort -n 20lines.txt| uniq
+  778  2017-04-03 18:37  sort -d 20lines.txt
+  779  2017-04-03 18:38  sort -d 20lines.txt| uniq
+  780  2017-04-03 18:45  echo "20\20n">>20lines.txt
+  781  2017-04-03 18:45  cat 20lines.txt
+  782  2017-04-03 18:45  echo "20\n20">>20lines.txt
+  783  2017-04-03 18:45  cat 20lines.txt
+  784  2017-04-03 18:46  sort 20lines.txt| uniq -d
+  785  2017-04-03 18:49  sort -c 20lines.txt
+  786  2017-04-03 18:49  sort -c 20lines.txt| uniq -c
+  787  2017-04-03 18:51  seq 0 2 40>20lines2.txt
+  788  2017-04-03 18:54  sort 20lines.txt| uniq | sort 20lines2.txt| uniq>>20lines no_dupl.txt
+  789  2017-04-03 18:55  sort 20lines.txt| uniq | sort 20lines2.txt| uniq>>20lines_nodupl.txt
+  790  2017-04-03 18:55  cat 20lines_nodupl.txt
+  791  2017-04-03 18:57  sort 20lines.txt| uniq -d | sort 20lines2.txt| uniq -d>>20lines_nodupl.txt
+  792  2017-04-03 18:57  cat 20lines_nodupl.txt
+  793  2017-04-03 18:58  cd Data
+  794  2017-04-03 18:58  cd opentraveldata
+  795  2017-04-03 18:59  l
+  796  2017-04-03 18:59  ls
+  797  2017-04-03 18:59  cd optd_aircraft.csv
+  798  2017-04-03 19:00  cat optd_aircraft.csv
+  799  2017-04-03 19:02  sort -t -k7,7 optd_aircraft.csv
+  800  2017-04-03 19:02  sort -t "^" -k7,7 optd_aircraft.csv
+  801  2017-04-03 19:03  sort -t "^" -k7,7 optd_aircraft.csv| head -10
+  802  2017-04-03 19:03  sort -t "^" -k7,7 optd_aircraft.csv| tail -10
+  803  2017-04-03 19:03  sort -t "^" -k7,7 optd_aircraft.csv| tail 10
+  804  2017-04-03 19:04  sort -t "^" -k7,7 optd_aircraft.csv| tail -15
+  805  2017-04-03 19:04  sort -t "^" -k7r,7 optd_aircraft.csv| head
+  806  2017-04-03 19:15  cat -n ./history>ejer_comandos1.txt
+  807  2017-04-03 19:15  cat -n /history>ejer_comandos1.txt
+  808  2017-04-03 19:18  history -id -150>ejercicios1.txt
+  809  2017-04-03 19:18  cat ejercicios1
+  810  2017-04-03 19:18  cat ejercicios1.txt
